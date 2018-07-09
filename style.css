@@ -1,0 +1,44 @@
+body{
+	display: block;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(252,243,227);
+	background: linear-gradient(124deg, rgb(252, 243, 225), rgb(209, 245, 226));
+	background-image: url(img/image.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom-right;
+	background-size: cover;
+}
+
+p, ul{
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px; 
+	line-height: 40px;
+	color: rgb(59,1,0);
+}
+
+a{
+	color: rgb(243,17,92);
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+a:visited{
+	color: rgb(10,182,160);
+}
+
+blockquote{
+	display: block;
+	max-width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 160%;
+	background-color: lightgrey;
+	border-left: solid 3px rgb(143,39,37);
+	padding-left: 30px; 
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
