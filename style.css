@@ -5,15 +5,16 @@ body{
 	margin-right: auto;
 	background-color: rgb(252,243,227);
 	background: linear-gradient(124deg, rgb(252, 243, 225), rgb(209, 245, 226));
-	background-image: url(img/image.jpg);
+	background-image: url(img/5709light.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom-right;
 	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
 }
 
 p, ul{
-	font-family: 'Roboto Slab', serif;
-	font-size: 20px; 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
 	line-height: 40px;
 	color: rgb(59,1,0);
 }
@@ -38,7 +39,112 @@ blockquote{
 	font-size: 160%;
 	background-color: lightgrey;
 	border-left: solid 3px rgb(143,39,37);
-	padding-left: 30px; 
+	padding-left: 30px;
 	margin-top: 80px;
 	margin-bottom: 80px;
+}
+.villageois {
+	font-style: italic;
+	display: block;
+	max-width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 160%;
+	background-color: lightgrey;
+	border-left: solid 3px #3f6f00;
+	padding-left: 30px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+
+}
+.fermier {
+	font-style: italic;
+	display: block;
+	max-width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 160%;
+	background-color: lightgrey;
+	border-left: solid 3px #d97b00;
+	padding-left: 30px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+cite {
+	background-color: yellow;
+}
+
+q, blockquote {
+	font-style: italic;
+	clear: left;
+
+}
+.bien, .mal {
+	text-transform: uppercase;
+}
+.mal {
+	color: red;
+}
+.bien {
+	color: green;
+}
+.grey {
+	background-color: lightgrey;
+}
+.white {
+	background-color: white;
+}
+ul {
+	display: block;
+}
+#thumbup {
+	background-image: url(img/bien.png);
+	background-repeat: no-repeat;
+	background-position: right 0 bottom 0px;
+	background-size: 25px;
+}
+#thumbdown {
+	background-image: url(img/mal.png);
+	background-repeat: no-repeat;
+	background-position: right 0 bottom 0px;
+	background-size: 25px;
+}
+#cat {
+	background-image: url(img/chat.png);
+	background-repeat: no-repeat;
+	background-position: right 0 bottom 0px;
+	background-size: 25px;
+}
+.gras, ul {
+	font-weight: bold;
+	font-size: 20px;
+}
+img {
+	float: left;
+	margin: 25px;
+}
+.notification{
+  background:#FFFFDD;
+  padding:.5rem 1rem;
+  border:3px solid #DDDDCC;
+  width:350px;
+  font-weight:bold;
+  color: #333300;
+	right: 0;
+	position: fixed;
+}
+h1 {
+	font-size: 32px;
+}
+h2 {
+	font-size: 26px;
+}
+h1, h2 {
+	font-family: 'Roboto Slab', serif;
+}
+th, td, tr {
+	padding: 20px;
+}
+#legende {
+	caption-side: bottom;
 }
